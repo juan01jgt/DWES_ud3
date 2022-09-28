@@ -16,4 +16,4 @@ do {
 } while ($cont < 3);
 echo "Resultado: ",$res;
 
-echo "</br>Código <a target='_blank' href='https://github.com/juan01jgt/DWES_ud3/blob/main/Ejercicioclase2.php'>aqui</a>";
+echo "</br><a target='_blank' href='https://github.com/juan01jgt/DWES_ud3/blob/main/Ejercicioclase2.php'>Código</a>";

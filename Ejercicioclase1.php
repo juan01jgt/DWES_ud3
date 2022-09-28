@@ -10,4 +10,4 @@ do {
 } while ($i <= 10);
 
 
-echo "</br>Código <a target='_blank' href='https://github.com/juan01jgt/DWES_ud3/blob/main/Ejercicioclase1.php'>aqui</a>";
+echo "</br><a target='_blank' href='https://github.com/juan01jgt/DWES_ud3/blob/main/Ejercicioclase1.php'>Código</a>";
