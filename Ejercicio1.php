@@ -40,4 +40,4 @@ if ($numero>$numero2 && $numero>$numero3) {
 }
 
 
-echo "</br>Código <a href='https://github.com/juan01jgt/DWES_ud3/blob/main/Ejercicio1.php'>aqui</a>";
+echo "</br>Código <a target='_blank' href='https://github.com/juan01jgt/DWES_ud3/blob/main/Ejercicio1.php'>aqui</a>";

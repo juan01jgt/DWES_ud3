@@ -12,4 +12,4 @@ $edad = $hoy->diff($fecha_nacimiento);
 echo "Naciste hace ",$edad->y," años ",$edad->m," meses ",$edad->d," dias.";
 
 
-echo "</br>Código <a href='https://github.com/juan01jgt/DWES_ud3/blob/main/Ejercicio4.php'>aqui</a>";
+echo "</br>Código <a target='_blank' href='https://github.com/juan01jgt/DWES_ud3/blob/main/Ejercicio4.php'>aqui</a>";

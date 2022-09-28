@@ -34,4 +34,4 @@ switch ($mes) {
         break;
 }
 
-echo "</br>Código <a href='https://github.com/juan01jgt/DWES_ud3/blob/main/Ejercicio2.php'>aqui</a>";
+echo "</br>Código <a target='_blank' href='https://github.com/juan01jgt/DWES_ud3/blob/main/Ejercicio2.php'>aqui</a>";

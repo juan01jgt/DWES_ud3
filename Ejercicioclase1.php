@@ -6,8 +6,8 @@
 
 $i = 0;
 do {
-    echo "</br>",$i++;
+    echo "<br/>",$i++;
 } while ($i <= 10);
 
 
-echo "</br>Código <a href='https://github.com/juan01jgt/DWES_ud3/blob/main/Ejercicioclase1.php'>aqui</a>";
+echo "</br>Código <a target='_blank' href='https://github.com/juan01jgt/DWES_ud3/blob/main/Ejercicioclase1.php'>aqui</a>";
