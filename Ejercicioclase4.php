@@ -11,7 +11,7 @@ for ($r=0; $r <= $x; $r+=$incremento) {
     for ($g=0; $g <= $x; $g+=$incremento) {
         echo "<tr>";
         for ($b=0; $b <= $x; $b+=$incremento) {
-            echo "<td  style='background-color: rgb($r,$g,$b)'><a href=''><h4 style='margin: 0px 15px 0px 15px;'>",RGBToHex($r,$g,$b),"</h4></a></td>";
+            echo "<td  style='background-color: rgb($r,$g,$b)'><a target = '_blank' href='color.php?col=",RGBToHex($r,$g,$b),"'><h4 style='margin: 0px 15px 0px 15px;'>",RGBToHex($r,$g,$b),"</h4></a></td>";
         }
         echo "</tr>";
     }
@@ -20,7 +20,7 @@ echo "</table>";
 
 function RGBToHex($r,$g,$b)
 {
-	$hex = "#";
+	$hex = "";
 	$hex.= str_pad(dechex($r), 2, "0", STR_PAD_LEFT);
 	$hex.= str_pad(dechex($g), 2, "0", STR_PAD_LEFT);
 	$hex.= str_pad(dechex($b), 2, "0", STR_PAD_LEFT);
