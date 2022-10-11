@@ -3,7 +3,6 @@
  * @author Juan Garcia
  * Dado el dia, mes y año almacenados en variables, escribir un programa que muestre el calendario mensual correspondiente. Marcar el día actual en verde y los festivos en rojo.
  */
-$dia=5;
 $mes=10;
 $año=2022;
 // $dias=[[1,1],[6,1],[15,4],[15,8],[12,10],[1,11],[6,12],[8,12]];
@@ -129,7 +128,7 @@ foreach ($festivos as $key => $value) {
     }
 }
 for ($i=1; $i <= $dias; $i++) { 
-    if ($i==$dia) {
+    if ($i==$hoy->format("d") && $mes==$hoy->format("m") && $año==$hoy->format("Y")) {
         echo "<td class='hoy'>$i</td>";
     }elseif(($espacioblanco+$i)%7 == 0){
         echo "<td class='domingo'>$i</td>";
