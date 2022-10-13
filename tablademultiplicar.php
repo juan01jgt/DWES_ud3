@@ -23,7 +23,7 @@ for ($r=1; $r <= $x; $r++) {
             echo "<td style='text-align: center;'><h4 style='margin: 0px 15px 0px 15px;'>",$r*$g,"</h4></td>";
         }
         if ($g==$ale) {
-            echo "<td  class='num'><input type='number' name='num$r$g'  ></td>";
+            echo "<td  class='num'><input type='number' name='$r$g'></td>";
         }
         else {
             echo "<td  class='num'><h4 style='margin: 0px 15px 0px 15px;'>",$r*$g,"</h4></td>";
@@ -44,12 +44,7 @@ echo "</br><a target='_blank' href='https://github.com/juan01jgt/DWES_ud3/blob/m
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .num{
-            background-color: aqua;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="estilotablamultiplicar.css"/>
 </head>
 <body>
 </body>
