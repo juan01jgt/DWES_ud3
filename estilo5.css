@@ -1,0 +1,23 @@
+.dia{
+    text-align-last: center;
+}
+.hoy{
+    background-color: green;
+    text-align-last: center;
+}
+.domingo{
+    background-color: red;
+    text-align-last: center;
+}
+.nacional{
+    background-color: lightcoral;
+    text-align-last: center;
+}
+.comunidad{
+    background-color: orange;
+    text-align-last: center;
+}
+.local{
+    background-color: blue;
+    text-align-last: center;
+}

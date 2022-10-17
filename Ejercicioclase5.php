@@ -3,10 +3,11 @@
  * @author Juan Garcia
  * Dado el dia, mes y año almacenados en variables, escribir un programa que muestre el calendario mensual correspondiente. Marcar el día actual en verde y los festivos en rojo.
  */
-$mes=10;
-$año=2022;
-// $dias=[[1,1],[6,1],[15,4],[15,8],[12,10],[1,11],[6,12],[8,12]];
 $hoy = new DateTime();
+$dia = $hoy->format("d");
+$mes = $hoy->format("m");
+$año = $hoy->format("Y");
+// $dias=[[1,1],[6,1],[15,4],[15,8],[12,10],[1,11],[6,12],[8,12]];
 $dia1 = new DateTime("1-$mes-$año");
 $festmes=array();
 $festivos = array(
@@ -81,32 +82,12 @@ switch (jddayofweek($jd,1)) {
         break;
 }
 ?>
-<style>
-    .dia{
-        text-align-last: center;
-    }
-    .hoy{
-        background-color: green;
-        text-align-last: center;
-    }
-    .domingo{
-        background-color: red;
-        text-align-last: center;
-    }
-    .nacional{
-        background-color: lightcoral;
-        text-align-last: center;
-    }
-    .comunidad{
-        background-color: orange;
-        text-align-last: center;
-    }
-    .local{
-        background-color: blue;
-        text-align-last: center;
-    }
-</style>
+<link rel="stylesheet" type="text/css" href="estilo5.css"/>
 <table>
+<tr><?php
+echo $hoy->format("M")," de ",$año;
+?>
+</tr>
 <tr>
 <td>Lunes</td>
 <td>Martes</td>
@@ -128,7 +109,7 @@ foreach ($festivos as $key => $value) {
     }
 }
 for ($i=1; $i <= $dias; $i++) { 
-    if ($i==$hoy->format("d") && $mes==$hoy->format("m") && $año==$hoy->format("Y")) {
+    if ($i==$dia) {
         echo "<td class='hoy'>$i</td>";
     }elseif(($espacioblanco+$i)%7 == 0){
         echo "<td class='domingo'>$i</td>";
