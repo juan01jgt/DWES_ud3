@@ -1,0 +1,13 @@
+Partido Legendarios;Zona B;Numero 101;Precio 15€
+Partido Legendarios;Zona B;Numero 102;Precio 15€
+Partido Legendarios;Zona B;Numero 103;Precio 15€
+Partido Legendarios;Zona B;Numero 101;Precio 15€
+Partido Legendarios;Zona B;Numero 102;Precio 15€
+Partido Legendarios;Zona B;Numero 103;Precio 15€
+Partido Picapiedras;Zona A;Numero 3;Precio 20€
+Partido Invisibles;Zona B;Numero 101;Precio 15€
+Partido Perezosos;Zona B;Numero 101;Precio 12€
+Partido Perezosos;Zona B;Numero 101;Precio 12€
+Partido Perezosos;Zona B;Numero 101;Precio 12€
+Partido Perezosos;Zona B;Numero 101;Precio 12€
+TOTAL:173€

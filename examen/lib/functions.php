@@ -2,7 +2,7 @@
 /**
  * @author Juan Garcia
  */
-include('config/config.php');
+include_once('config/config.php');
 function existeAsiento ($asiento,$arra) : bool{
     $Existe=false;
     foreach ($arra as $key => $value) {

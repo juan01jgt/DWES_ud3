@@ -3,8 +3,8 @@
 /**
  * @author Juan Garcia
  */
-include('config/config.php');
-include('lib/functions.php');
+include_once('config/config.php');
+include_once('lib/functions.php');
 
 $procesalocal = false;
 $tabla = array();
